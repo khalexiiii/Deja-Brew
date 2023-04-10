@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
   font-family: 'poppins', 'sans-serif';
-  font-size: 14px;
+  font-size: 18px;
   line-height: normal;
   background-color: #fcf5e7;
   letter-spacing: .5px;
@@ -55,3 +55,33 @@ body {
 .breadcrumb li {
   display: inline-block !important;
 }
+.breadcrumb li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.breadcrumb li a:hover {
+  color: #c69155;
+}
+.breadcrumb-item.active{
+  color: #c69155 !important;
+}
+.category-page-title {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  background-color: transparent;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+@media (max-width: 991px) {
+.category-page-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  }
+}
+.about-us-content {
+  margin-top: 30px;
+
+}
+
