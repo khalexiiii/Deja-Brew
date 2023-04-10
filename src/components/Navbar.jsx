@@ -32,7 +32,7 @@ function Navbar() {
             className='nav-item'
           >
             <Link
-              to='/menu'
+              to='/Deja-Brew/menu'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -41,16 +41,16 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/Deja-Brew/about-us'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              About Us
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/Deja-Brew/contact-us'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to='/login'
+              to='/Deja-Brew/login'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >

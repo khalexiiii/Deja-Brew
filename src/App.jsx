@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menu from './components/pages/Menu';
-import Products from './components/pages/Products';
+import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import LogIn from './components/pages/LogIn';
 
@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/Deja-Brew/' exact component={Home} />
-        <Route path='/menu' component={Menu} />
-        <Route path='/products' component={Products} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/login' component={LogIn} />
+        <Route path='/Deja-Brew/menu' component={Menu} />
+        <Route path='/Deja-Brew/about-us' component={AboutUs} />
+        <Route path='/Deja-Brew//contact-us' component={ContactUs} />
+        <Route path='/Deja-Brew/login' component={LogIn} />
       </Switch>
     </Router>
   );
