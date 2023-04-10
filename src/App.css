@@ -14,7 +14,7 @@ body {
   
   .home,
   .menu,
-  .products,
+  .about-us,
   .contact-us,
   .login,
   .marketing,
@@ -44,7 +44,7 @@ body {
     font-size: 100px;
   }
   
-  .products {
+  .about-us {
     background-image: url('./images/img-3.jpg');
     background-position: center;
     background-size: fill;

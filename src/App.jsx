@@ -20,7 +20,7 @@ function App() {
         <Route path='/Deja-Brew/' exact component={Home} />
         <Route path='/Deja-Brew/menu' component={Menu} />
         <Route path='/Deja-Brew/about-us' component={AboutUs} />
-        <Route path='/Deja-Brew//contact-us' component={ContactUs} />
+        <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
       </Switch>
     </Router>
