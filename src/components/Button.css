@@ -1,0 +1,21 @@
+
+  .btn {
+    padding: 8px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff !important;
+    cursor: pointer;
+    background-color: #c69155;
+    transition: all 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #c69155 !important;
+  }
+  span {
+    margin-left: 10px;
+  }
+
+  
