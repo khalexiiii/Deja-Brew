@@ -8,9 +8,9 @@ import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import LogIn from './components/pages/LogIn';
-
-
-
+import MenuCoff from './components/pages/MenuCoff';
+import MenuDess from './components/pages/MenuDess';
+import MenuAdd from './components/pages/MenuAdd';
 
 function App() {
   return (
@@ -22,6 +22,9 @@ function App() {
         <Route path='/Deja-Brew/about-us' component={AboutUs} />
         <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
+        <Route path='/Deja-Brew/Coffee' component={MenuCoff} />
+        <Route path='/Deja-Brew/Add-ons' component={MenuAdd} />
+        <Route path='/Deja-Brew/Desserts' component={MenuDess} />
       </Switch>
     </Router>
   );

@@ -32,17 +32,17 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .card {
     width: 18rem;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.card-img .img{
-    object-fit: cover;
-    height: 200px;
-}
 
 @media (min-width: 575px) {
     .my-navbar {
@@ -59,9 +59,10 @@ h6 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
-    .card-group>.card {
+    .card {
         margin: 10px;
     }
 
@@ -89,8 +90,6 @@ h6 {
         margin-bottom: 10px;
         text-align: center;
     }
-
-
 }
 
 @media (min-width: 992px) {
