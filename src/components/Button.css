@@ -14,8 +14,11 @@
   .btn:hover {
     background-color: #c69155 !important;
   }
-  span {
+  a .login {
     margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   
