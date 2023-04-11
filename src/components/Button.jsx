@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export function Button() {
   return (
     <Link to='login'>
-      <a className='btn'><i className="fa-solid fa-user"></i><span>Login</span></a>
+      <a className='btn'><i className="fa-solid fa-user"></i><span className="login">Login</span></a>
     </Link>
   );
 }
