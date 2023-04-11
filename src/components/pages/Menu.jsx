@@ -12,6 +12,8 @@ import IcedCard from "../../images/IcedCard.png";
 import FrapCard from "../../images/FrapCard.png";
 import "../Greeting";
 import Greeting from "../Greeting";
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
+
 
 const Menu = () => {
   const [index, setIndex] = useState(0);
@@ -143,6 +145,7 @@ const Menu = () => {
   );
 };
 
-export default Menu;
 
-
+export default function Menu() {
+  return <h1 className='menu'>Menu</h1>;
+}
