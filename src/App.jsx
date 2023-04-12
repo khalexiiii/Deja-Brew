@@ -24,11 +24,11 @@ function App() {
         <Route path='/Deja-Brew/about-us' component={AboutUs} />
         <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
-        <Route path='/Deja-Brew/Frequently-Asked-Questions' component={FAQs} />
-        <Route path='/Deja-Brew/Privacy-Policy' component={PrivacyPolicy} />
-        <Route path='/Deja-Brew/Coffee' component={MenuCoff} />
-        <Route path='/Deja-Brew/Desserts' component={MenuDess} />
-        <Route path='/Deja-Brew/Add-ons' component={MenuAdd} />
+        <Route path='/Deja-Brew/frequently-asked-questions' component={FAQs} />
+        <Route path='/Deja-Brew/privacy-policy' component={PrivacyPolicy} />
+        <Route path='/Deja-Brew/coffee' component={MenuCoff} />
+        <Route path='/Deja-Brew/desserts' component={MenuDess} />
+        <Route path='/Deja-Brew/add-ons' component={MenuAdd} />
       </Switch>
     </Router>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link, NavLink } from 'react-router-dom';
 
 
 export function Footer() {
@@ -43,16 +44,16 @@ export function Footer() {
                                         </div>
                                         <ul id="footer_sub_menu_link36722" className="tbfooter-link-wrapper">
                                             <li>
-                                                <a id="link-cms-page-1-2" className="cms-page-link" href="/Deja-Brew/frequently-asked-questions" title="Frequently Asked Questions">FAQs</a>
+                                                <NavLink as={Link} to="/Deja-Brew/frequently-asked-questions" id="link-cms-page-1-2" className="cms-page-link" title="Frequently Asked Questions">FAQs</NavLink>
                                             </li>
                                             <li>
-                                                <a id="link-cms-page-2-2" className="cms-page-link" href="/Deja-Brew/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+                                                <NavLink as={Link} to="/Deja-Brew/privacy-policy" className="cms-page-link" title="Privacy Policy">Privacy Policy</NavLink>
                                             </li>
                                             <li>
                                                 <a id="link-cms-page-3-2" className="cms-page-link" href="" title="Our terms and conditions of use">Terms and conditions of use</a>
                                             </li>
                                             <li>
-                                                <a id="link-cms-page-4-2" className="cms-page-link" href="/Deja-Brew/about-us" title="Learn more about us">About us</a>
+                                                <NavLink as={Link} to="/Deja-Brew/about-us" id="link-cms-page-4-2" className="cms-page-link" title="Learn more about us">About us</NavLink>
                                             </li>
                                             <li>
                                                 <a id="link-cms-page-5-2" className="cms-page-link" href="" title="Our secure payment method">Secure payment</a>
