@@ -9,6 +9,7 @@
   border-bottom: 3px solid #c69155;
   padding: 10px 30px !important;
   text-align: center;
+  flex-wrap: nowrap !important;
  }
   
 .navbar-logo {

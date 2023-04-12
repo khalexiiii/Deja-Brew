@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
-import {Footer} from '../../components/Footer'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import {Footer} from '../../components/Footer';
 
 export default function ContactUs() {
   return (

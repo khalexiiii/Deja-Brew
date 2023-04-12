@@ -8,6 +8,8 @@ import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import LogIn from './components/pages/LogIn';
+import Delivery from './components/pages/Delivery';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/Deja-Brew/about-us' component={AboutUs} />
         <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
+        <Route path='/Deja-Brew/delivery' component={Delivery} />
+        <Route path='/Deja-Brew/privacy-policy' component={PrivacyPolicy} />
       </Switch>
     </Router>
   );

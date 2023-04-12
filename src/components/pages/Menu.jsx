@@ -12,7 +12,8 @@ import IcedCard from "../../images/IcedCard.png";
 import FrapCard from "../../images/FrapCard.png";
 import "../Greeting";
 import Greeting from "../Greeting";
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import {Footer} from '../../components/Footer';
 
 
 const Menu = () => {
@@ -24,6 +25,14 @@ const Menu = () => {
 
   return (
     <>
+      <Breadcrumb>
+        <div className="container">
+          <div className="category-page-title">Menu</div>
+          <Breadcrumb.Item href="/Deja-Brew/">Home</Breadcrumb.Item>
+          <Breadcrumb.Item active >Menu</Breadcrumb.Item>
+        </div>
+      </Breadcrumb>
+    
       <Navbar expand="md" variant="light" bg="light" className="my-navbar">
         <div id="basic-navbar-nav">
           <Nav className="mx-auto d-flex justify-content-center flex-grow-1 flex-row">
@@ -140,6 +149,7 @@ const Menu = () => {
           </Card.Body>
         </Card>
       </div>
+      <Footer />
     </>
 
   );
