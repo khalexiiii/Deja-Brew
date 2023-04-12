@@ -25,7 +25,7 @@ function App() {
         <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
         <Route path='/Deja-Brew/Delivery' component={Delivery} />
-        <Route path='/Deja-Brew/PrivacyPolicy' component={PrivacyPolicy} />
+        <Route path='/Deja-Brew/Privacy-Policy' component={PrivacyPolicy} />
         <Route path='/Deja-Brew/Coffee' component={MenuCoff} />
         <Route path='/Deja-Brew/Desserts' component={MenuDess} />
         <Route path='/Deja-Brew/Add-ons' component={MenuAdd} />
