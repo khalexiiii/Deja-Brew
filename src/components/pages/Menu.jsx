@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Carousel, Card, Button } from "react-bootstrap";
+import { Navbar, Nav, Carousel, Card, Breadcrumb } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../Menu.css";
 import CoffeeSlide from "../../images/CoffeeSlide.png";
@@ -27,6 +27,14 @@ const Menu = () => {
 
   return (
     <>
+      <Breadcrumb>
+        <div className="container">
+          <div className="category-page-title">Menu</div>
+          <Breadcrumb.Item href="/Deja-Brew/">Home</Breadcrumb.Item>
+          <Breadcrumb.Item active >Menu</Breadcrumb.Item>
+        </div>
+      </Breadcrumb>
+    
       <Navbar expand="md" variant="light" bg="light" className="my-navbar">
         <div id="basic-navbar-nav">
           <Nav className="mx-auto d-flex justify-content-center flex-grow-1 flex-row">

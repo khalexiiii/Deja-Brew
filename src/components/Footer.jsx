@@ -43,10 +43,10 @@ export function Footer() {
                                         </div>
                                         <ul id="footer_sub_menu_link36722" className="tbfooter-link-wrapper">
                                             <li>
-                                                <a id="link-cms-page-1-2" className="cms-page-link" href="" title="Our terms and conditions of delivery">Delivery</a>
+                                                <a id="link-cms-page-1-2" className="cms-page-link" href="/Deja-Brew/Frequently-Asked-Questions" title="Our terms and conditions of delivery">FAQs</a>
                                             </li>
                                             <li>
-                                                <a id="link-cms-page-2-2" className="cms-page-link" href="" title="Legal notice">Legal Notice</a>
+                                                <a id="link-cms-page-2-2" className="cms-page-link" href="/Deja-Brew/privacy-policy" title="Legal notice">Privacy Policy</a>
                                             </li>
                                             <li>
                                                 <a id="link-cms-page-3-2" className="cms-page-link" href="" title="Our terms and conditions of use">Terms and conditions of use</a>

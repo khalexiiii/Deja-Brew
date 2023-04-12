@@ -8,6 +8,8 @@ import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
 import LogIn from './components/pages/LogIn';
+import FAQs from './components/pages/FAQs';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import MenuCoff from './components/pages/MenuCoff';
 import MenuDess from './components/pages/MenuDess';
 import MenuAdd from './components/pages/MenuAdd';
@@ -22,9 +24,11 @@ function App() {
         <Route path='/Deja-Brew/about-us' component={AboutUs} />
         <Route path='/Deja-Brew/contact-us' component={ContactUs} />
         <Route path='/Deja-Brew/login' component={LogIn} />
+        <Route path='/Deja-Brew/Frequently-Asked-Questions' component={FAQs} />
+        <Route path='/Deja-Brew/Privacy-Policy' component={PrivacyPolicy} />
         <Route path='/Deja-Brew/Coffee' component={MenuCoff} />
-        <Route path='/Deja-Brew/Add-ons' component={MenuAdd} />
         <Route path='/Deja-Brew/Desserts' component={MenuDess} />
+        <Route path='/Deja-Brew/Add-ons' component={MenuAdd} />
       </Switch>
     </Router>
   );
