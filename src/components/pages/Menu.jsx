@@ -13,6 +13,7 @@ import FrapCard from "../../images/FrapCard.png";
 import "../Greeting";
 import Greeting from "../Greeting";
 import { Link } from 'react-router-dom';
+import { Footer } from '../../components/Footer';
 
 
 
@@ -139,6 +140,9 @@ const Menu = () => {
           </Card.Body>
         </Card>
       </div>
+      <Footer />
+
+
     </>
 
   );
