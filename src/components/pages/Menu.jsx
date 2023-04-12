@@ -38,9 +38,9 @@ const Menu = () => {
       <Navbar expand="md" variant="light" bg="light" className="my-navbar">
         <div id="basic-navbar-nav">
           <Nav className="mx-auto d-flex justify-content-center flex-grow-1 flex-row">
-            <Nav.Link as={Link} to="/Deja-Brew/Coffee">Coffee</Nav.Link>
-            <Nav.Link as={Link} to="/Deja-Brew/Desserts">Desserts</Nav.Link>
-            <Nav.Link as={Link} to="/Deja-Brew/Add-ons">Addons</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/coffee">Coffee</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/desserts">Desserts</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/add-ons">Addons</Nav.Link>
           </Nav>
         </div>
       </Navbar>
