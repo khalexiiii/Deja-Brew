@@ -43,16 +43,16 @@ export function Footer() {
                                         </div>
                                         <ul id="footer_sub_menu_link36722" className="tbfooter-link-wrapper">
                                             <li>
-                                                <a id="link-cms-page-1-2" className="cms-page-link" href="/Deja-Brew/frequently-asked-questions" title="Our terms and conditions of delivery">FAQs</a>
+                                                <a id="link-cms-page-1-2" className="cms-page-link" href="/Deja-Brew/frequently-asked-questions" title="Frequently Asked Questions">FAQs</a>
                                             </li>
                                             <li>
-                                                <a id="link-cms-page-2-2" className="cms-page-link" href="/Deja-Brew/privacy-policy" title="Legal notice">Privacy Policy</a>
+                                                <a id="link-cms-page-2-2" className="cms-page-link" href="/Deja-Brew/privacy-policy" title="Privacy Policy">Privacy Policy</a>
                                             </li>
                                             <li>
                                                 <a id="link-cms-page-3-2" className="cms-page-link" href="" title="Our terms and conditions of use">Terms and conditions of use</a>
                                             </li>
                                             <li>
-                                                <a id="link-cms-page-4-2" className="cms-page-link" href="" title="Learn more about us">About us</a>
+                                                <a id="link-cms-page-4-2" className="cms-page-link" href="/Deja-Brew/about-us" title="Learn more about us">About us</a>
                                             </li>
                                             <li>
                                                 <a id="link-cms-page-5-2" className="cms-page-link" href="" title="Our secure payment method">Secure payment</a>
