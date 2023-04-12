@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Carousel, Card, Button, ListGroup } from "react-bootstrap";
+import { Navbar, Nav, Carousel, Card, Breadcrumb } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../Menu.css";
 import CoffeeSlide from "../../images/CoffeeSlide.png";
@@ -12,8 +12,9 @@ import IcedCard from "../../images/IcedCard.png";
 import FrapCard from "../../images/FrapCard.png";
 import "../Greeting";
 import Greeting from "../Greeting";
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import {Footer} from '../../components/Footer';
+import { Link } from 'react-router-dom';
+
+
 
 
 const Menu = () => {
@@ -36,13 +37,12 @@ const Menu = () => {
       <Navbar expand="md" variant="light" bg="light" className="my-navbar">
         <div id="basic-navbar-nav">
           <Nav className="mx-auto d-flex justify-content-center flex-grow-1 flex-row">
-            <Nav.Link href="#">Coffee</Nav.Link>
-            <Nav.Link href="#">Desserts</Nav.Link>
-            <Nav.Link href="#">Addons</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/Coffee">Coffee</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/Desserts">Desserts</Nav.Link>
+            <Nav.Link as={Link} to="/Deja-Brew/Add-ons">Addons</Nav.Link>
           </Nav>
         </div>
       </Navbar>
-
 
       <Carousel activeIndex={index} onSelect={handleSelect} interval={2000} className="my-carousel">
         <Carousel.Item>
@@ -86,70 +86,59 @@ const Menu = () => {
       </Carousel>
       <Greeting />
 
-      <h6>Welcome to Deja Brew! What would you like to order today?</h6>
+      <h6>Welcome to Deja Brew! Look at our best sellers!</h6>
       <div className="card-group custom-card-group">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={CappCard} style={{ height: "300px", objectFit: "cover" }}/>
+        <Card style={{ width: "18rem", border: "2px solid black", borderRadius: "5px" }}>
+          <Card.Img variant="top" src={CappCard} style={{ height: "300px", objectFit: "cover" }} />
           <Card.Body>
             <Card.Title>Cappucino</Card.Title>
-            <Card.Text>
-              Price
-            </Card.Text>
-             <div className="text-center">
-              <Button variant="dark">Learn More</Button>
+            <Card.Text>Price</Card.Text>
+            <div className="text-center">
+              <Link to="/Deja-Brew/Coffee" className="btn btn-dark">Go to Coffee</Link>
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={CheeseCard} style={{ height: "300px", objectFit: "cover" }}/>
+        <Card style={{ width: "18rem", border: "2px solid black", borderRadius: "5px" }}>
+          <Card.Img variant="top" src={CheeseCard} style={{ height: "300px", objectFit: "cover" }} />
           <Card.Body>
             <Card.Title>Cheese Cake</Card.Title>
-            <Card.Text>
-              Price
-            </Card.Text>
-             <div className="text-center">
-              <Button variant="dark">Learn More</Button>
+            <Card.Text>Price</Card.Text>
+            <div className="text-center">
+              <Link to="/Deja-Brew/Desserts" className="btn btn-dark">Go to Desserts</Link>
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={ApplepieCard}  style={{ height: "300px", objectFit: "cover" }} />
+        <Card style={{ width: "18rem", border: "2px solid black", borderRadius: "5px" }}>
+          <Card.Img variant="top" src={ApplepieCard} style={{ height: "300px", objectFit: "cover" }} />
           <Card.Body>
             <Card.Title>Apple Pie</Card.Title>
-            <Card.Text>
-              Price
-            </Card.Text>
-             <div className="text-center">
-              <Button variant="dark">Learn More</Button>
+            <Card.Text>Price</Card.Text>
+            <div className="text-center">
+              <Link to="/Deja-Brew/Desserts" className="btn btn-dark">Go to Desserts</Link>
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem", border: "2px solid black", borderRadius: "5px" }}>
           <Card.Img variant="top" src={IcedCard} style={{ height: "300px", objectFit: "cover" }} />
           <Card.Body>
             <Card.Title>Cold Brew</Card.Title>
-            <Card.Text>
-              Price
-            </Card.Text>
-             <div className="text-center">
-              <Button variant="dark">Learn More</Button>
+            <Card.Text>Price</Card.Text>
+            <div className="text-center">
+              <Link to="/Deja-Brew/Coffee" className="btn btn-dark">Go to Coffee</Link>
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem", border: "2px solid black", borderRadius: "5px" }}>
           <Card.Img variant="top" src={FrapCard} style={{ height: "300px", objectFit: "cover" }} />
           <Card.Body>
-            <Card.Title>Card 5</Card.Title>
-            <Card.Text>
-              Price
-            </Card.Text>
-             <div className="text-center">
-              <Button variant="dark">Learn More</Button>
+            <Card.Title>Frappucino</Card.Title>
+            <Card.Text>Price</Card.Text>
+            <div className="text-center">
+              <Link to="/Deja-Brew/Coffee" className="btn btn-dark">Go to Coffee</Link>
             </div>
           </Card.Body>
         </Card>
       </div>
-      <Footer />
     </>
 
   );
