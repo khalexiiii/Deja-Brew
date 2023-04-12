@@ -8,6 +8,7 @@ import http2 from '../../utils/BevC.js';
 import axios from "axios";
 import CoffeeBanner from '../../images/CoffeeSlide.png'
 import { useEffect } from "react";
+import { Footer } from '../../components/Footer';
 
 
 const MenuCoff = () => {
@@ -101,6 +102,7 @@ const MenuCoff = () => {
                     </Carousel.Item>
                 )}
             </Carousel>
+            <Footer />
 
         </>
     );

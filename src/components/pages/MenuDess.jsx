@@ -8,6 +8,7 @@ import http2 from '../../utils/Dess2.js';
 import axios from "axios";
 import DessertBanner from '../../images/DessertSlide.png';
 import { useEffect } from "react";
+import { Footer } from '../../components/Footer';
 
 const MenuDess = () => {
     const [index, setIndex] = useState(0);
@@ -97,6 +98,7 @@ const MenuDess = () => {
                     </Carousel.Item>
                 )}
             </Carousel>
+            <Footer />
 
         </>
     );

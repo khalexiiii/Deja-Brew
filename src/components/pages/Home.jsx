@@ -5,6 +5,7 @@ import hero1 from '../../images/hero1.png'
 import hero2 from '../../images/hero2.png'
 import hero3 from '../../images/hero3.png'
 import hero4 from '../../images/hero4.png'
+import { Footer } from '../../components/Footer';
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
               </Carousel.Item>
 
         </Carousel>
+        <Footer />
     </div>
  
   );

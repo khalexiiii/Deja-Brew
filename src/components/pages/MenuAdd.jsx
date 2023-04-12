@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../MenuSub.css";
 import AddonBanner from "../../images/AddonSlide.png";
 import { Link } from 'react-router-dom';
+import { Footer } from '../../components/Footer';
 
 
 const MenuAdd = () => {
@@ -32,6 +33,7 @@ const MenuAdd = () => {
                     <p className="text-center" style={{ color: "#c69155" }}>"If the saying "we are what we eat" is true, I must be impressively sweet."</p>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
